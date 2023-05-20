@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+  
+}
+
+.input_holder{
+  padding: 12px;
+}
+.input_holder>input{
+  padding:  5px 14px;
+  margin-right: 15px
+}
+.input_holder>button{
+  padding: 5px;
+  border-radius:5px;
+}
+
+
+
+/* for task lists*/
+
+
+
+.task-list {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  margin: 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 11px;
+  padding: 6px;
+  background: lightblue;
+}
+
+.task-text {
+  margin-right: 10px; /* Add spacing between text and icons */
+}
+
+.icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 5px; /* Add spacing between icons */
+  cursor: pointer;
+}
